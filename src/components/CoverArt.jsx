@@ -6,7 +6,8 @@ export default function CoverArt({ song }) {
   return (
     <img
       src={cover}
-      alt={`${song?.title || "Song"} cover art`}
+      alt=""
+      aria-hidden="true"
       className="w-full max-w-sm aspect-square rounded-xl object-cover mx-auto"
     />
   );
