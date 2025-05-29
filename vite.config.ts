@@ -1,10 +1,13 @@
-import react from "@vitejs/plugin-react";
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
-})
+  test: {
+    environment: "jsdom",          // Use jsdom for DOM testing
+    globals: true,                 // Enable global test functions (describe, it, expect, etc.)
+    setupFiles: "./src/__tests__/setup.ts", // Load MSW setup
+    coverage: {
+      provider: "v8",              // Use V8 for coverage (faster)
+      reporter: ["text", "lcov"],  // Text for CLI, lcov for HTML report
+    },
+  },
+});

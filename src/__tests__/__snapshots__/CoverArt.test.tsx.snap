@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CoverArt > matches snapshot 1`] = `
+<div>
+  <div
+    class="relative"
+  >
+    <img
+      alt="Cover Art"
+      class="rounded-lg drop-shadow-md"
+      src="https://example.com/cover.jpg"
+    />
+  </div>
+</div>
+`;

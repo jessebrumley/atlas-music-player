@@ -1,0 +1,103 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`VolumeControls > matches snapshot at volume 10 1`] = `
+<div>
+  <div
+    class="flex items-center gap-4 rounded-lg bg-surface p-6 shadow-lg drop-shadow-md"
+  >
+    <svg
+      aria-label="volume"
+      class="lucide lucide-audio-lines text-secondary"
+      fill="none"
+      height="24"
+      role="img"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 10v3"
+      />
+      <path
+        d="M6 6v11"
+      />
+      <path
+        d="M10 3v18"
+      />
+      <path
+        d="M14 8v7"
+      />
+      <path
+        d="M18 5v13"
+      />
+      <path
+        d="M22 10v3"
+      />
+    </svg>
+    <input
+      aria-label="Volume control"
+      class="h-2 w-full cursor-pointer appearance-none rounded-lg accent-primary"
+      max="100"
+      min="0"
+      style="background: linear-gradient(to right, rgb(99, 102, 241) 10%, rgb(15, 23, 42) 10%);"
+      type="range"
+      value="10"
+    />
+  </div>
+</div>
+`;
+
+exports[`VolumeControls > matches snapshot at volume 50 1`] = `
+<div>
+  <div
+    class="flex items-center gap-4 rounded-lg bg-surface p-6 shadow-lg drop-shadow-md"
+  >
+    <svg
+      aria-label="volume"
+      class="lucide lucide-audio-lines text-secondary"
+      fill="none"
+      height="24"
+      role="img"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 10v3"
+      />
+      <path
+        d="M6 6v11"
+      />
+      <path
+        d="M10 3v18"
+      />
+      <path
+        d="M14 8v7"
+      />
+      <path
+        d="M18 5v13"
+      />
+      <path
+        d="M22 10v3"
+      />
+    </svg>
+    <input
+      aria-label="Volume control"
+      class="h-2 w-full cursor-pointer appearance-none rounded-lg accent-primary"
+      max="100"
+      min="0"
+      style="background: linear-gradient(to right, rgb(99, 102, 241) 50%, rgb(15, 23, 42) 50%);"
+      type="range"
+      value="50"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Playlist Component > matches snapshot 1`] = `
+<div>
+  <div
+    class="hover:bg-transparent hover:outline hover:outline-2 hover:outline-offset-8 hover:outline-primary hover:text-primary p-1 flex w-full cursor-pointer flex-col rounded-lg "
+  >
+    <p
+      class="ml-2 mr-2 font-fontmain font-bold text-text"
+    />
+    <div
+      class="flex w-full justify-between"
+    >
+      <p
+        class="ml-2 mr-2 font-fontalt text-text"
+      />
+      <p
+        class="ml-2 mr-2 font-fontalt text-textMuted"
+      >
+        NaN:NaN
+      </p>
+    </div>
+  </div>
+</div>
+`;

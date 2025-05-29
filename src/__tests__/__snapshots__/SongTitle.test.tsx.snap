@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SongTitle component > matches snapshot 1`] = `
+<div>
+  <div>
+    <p
+      class="font-fontmain text-2xl text-text"
+    >
+      Twilight Breeze
+    </p>
+    <p
+      class="font-fontalt text-text"
+    >
+      Dream Shapes
+    </p>
+  </div>
+</div>
+`;
